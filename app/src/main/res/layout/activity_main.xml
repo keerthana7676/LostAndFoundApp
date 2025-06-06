@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDFD"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+
+    <!-- Title -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="175dp"
+        android:layout_height="156dp"
+        app:srcCompat="@drawable/logo" />
+    <!--    <TextView-->
+    <!--        android:id="@+id/tvTitle"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Lost&Found"-->
+    <!--        android:textColor="#1E1E1E"-->
+    <!--        android:textSize="28sp"-->
+    <!--        android:fontFamily="@font/poppins_bold"-->
+    <!--        android:layout_marginBottom="40dp"/>-->
+
+    <!-- Report Lost Item Button -->
+    <Button
+        android:id="@+id/btnReportLost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/btn_primary"
+        android:backgroundTint="#FFC107"
+        android:fontFamily="@font/poppins_medium"
+        android:paddingVertical="12dp"
+        android:text="Report Lost Item"
+        android:textColor="#1E1E1E"
+        android:textSize="16sp" />
+
+    <!-- Report Found Item Button -->
+    <Button
+        android:id="@+id/btnReportFound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/btn_primary"
+        android:backgroundTint="#FFC107"
+        android:fontFamily="@font/poppins_medium"
+        android:paddingVertical="12dp"
+        android:text="Report Found Item"
+        android:textColor="#1E1E1E"
+        android:textSize="16sp" />
+
+    <!-- View All Posts Button -->
+    <Button
+        android:id="@+id/btnViewPosts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_secondary"
+        android:fontFamily="@font/poppins_medium"
+        android:paddingVertical="12dp"
+        android:text="View All Posts"
+        android:textColor="#FFC107"
+        android:textSize="16sp" />
+
+
+</LinearLayout>
